@@ -5,13 +5,19 @@ class clickhandler extends Component{
         this.state={
             message:'hello'
         }
-        this.clickhandler=this.clickhandler.bind(this)
+        // this.clickhandler=this.clickhandler.bind(this)
     }
-    clickhandler(){
+    // clickhandler(){
+    //     this.setState({
+    //         message:'good bye'  
+    //     })
+    // }
+    clickhandler=()=>{
         this.setState({
-            message:'good bye'  
+            message:'good bye'
         })
     }
+
     render(){
         return(
             <div >
